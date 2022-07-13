@@ -1,0 +1,598 @@
+:root{
+    --a:rgba(0, 0, 0, 0.281);
+    --b:rgb(231, 228, 228);
+    --c:rgb(0, 0, 0);
+    --d:rgba(0, 0, 0, 0.137);
+    --nav: rgb(192, 181, 181) ;
+    --span: rgb(145, 5, 5);
+    --butom: rgb(184, 58, 58);
+    --card: rgb(27, 27, 27, 0.5);
+   
+}
+
+.dark-mode{
+    --a:rgb(0, 0, 0);
+    --b:#000;
+    --c:#fff;
+    --d:rgba(255, 255, 255, 0.137);
+    --nav: rgb(145, 5, 5);
+    --span: rgb(145, 5, 5);
+    --butom: rgb(77, 0, 0);
+    --card:rgb(202, 199, 199, 0.5);
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: var(--b);
+    color: var(--c);
+}
+
+body{
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+}
+
+
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h4{
+    margin-top: 0px;
+    border: 1px solid var(--c);
+    border-radius: 25px;
+    width: 150px;
+    height: 42px;
+    text-align: center;
+    padding-top: 5px ;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+}
+
+span{
+    color: var(--span);
+}
+
+
+
+
+.babat1{
+    
+    width: 100%;
+    border-top: 1px solid var(--d);
+}
+
+.sol{
+    display: flex; 
+    
+}
+
+.card{
+    height: 500px;
+    margin: 80px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+
+
+.card .intro{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -122px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card:hover .intro{
+    height: 250px;
+    bottom: -122px;
+
+}
+
+.card h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold ;
+    
+}
+
+.card p{
+    text-transform:capitalize;
+    font-size: 14px;
+    margin: 10px;
+    visibility: hidden;
+    
+
+}
+
+.card:hover p{
+    visibility: visible;
+    opacity: 1;
+    
+
+}
+
+.card:hover a{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card a{
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--span);
+    padding: 10px;
+    font-weight: bold;
+    visibility: hidden;
+
+}
+
+.card img{
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+
+.sol1{
+    display: flex; 
+    
+}
+
+.card1{
+    height: 500px;
+    margin: 80px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.card1:hover1{
+    cursor: pointer;
+}
+
+
+
+.card1 .intro1{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -782px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card1:hover .intro1{
+    height: 250px;
+    bottom: -782px;
+
+}
+
+.card1 h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold ;
+    
+}
+
+.card1 p{
+    text-transform:capitalize;
+    font-size: 14px;
+    margin: 10px;
+    visibility: hidden;
+    
+
+}
+
+.card1:hover p{
+    visibility: visible;
+    opacity: 1;
+    
+
+}
+
+.card1:hover a{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card1 a{
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--span);
+    padding: 10px;
+    font-weight: bold;
+    visibility: hidden;
+
+}
+
+.card1 img{
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.card1:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+
+.sol2{
+    display: flex; 
+    
+}
+
+.card2{
+    height: 500px;
+    margin: 80px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.card2:hover{
+    cursor: pointer;
+}
+
+
+
+.card2 .intro2{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -1442px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card2:hover .intro2{
+    height: 250px;
+    bottom: -1442px;
+
+}
+
+.card2 h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold ;
+    
+}
+
+.card2 p{
+    text-transform:capitalize;
+    font-size: 14px;
+    margin: 10px;
+    visibility: hidden;
+    
+
+}
+
+.card2:hover p{
+    visibility: visible;
+    opacity: 1;
+    
+
+}
+
+.card2:hover a{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card2 a{
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--span);
+    padding: 10px;
+    font-weight: bold;
+    visibility: hidden;
+
+}
+
+.card2 img{
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.card2:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.text1{
+    margin: 40px 80px;
+    color: var(--c);
+}
+
+.text1 h6{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text1 p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+.card .intro4{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -122px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card:hover .intro4{
+    height: 250px;
+    bottom: -122px;
+
+}
+
+.card .intro5{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -122px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card:hover .intro5{
+    height: 250px;
+    bottom: -122px;
+
+}
+
+.card1 .intro6{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -782px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card1:hover .intro6{
+    height: 250px;
+    bottom: -782px;
+
+}
+.card1 .intro7{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -782px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card1:hover .intro7{
+    height: 250px;
+    bottom: -782px;
+
+}
+
+.card2 .intro8{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -1442px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card2:hover .intro8{
+    height: 250px;
+    bottom: -1442px;
+
+}
+
+.card2 .intro9{
+    height: 70px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -1442px;
+    background: var(--c);
+    color: var(--b);
+    transition: 0.4s;
+}
+
+.card2:hover .intro9{
+    height: 250px;
+    bottom: -1442px;
+
+}
+
+
+
+@media (max-width:600px) {
+    .list{
+        width: 100%;
+    }
+    .list .logo{
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .list .dark{
+        margin-right: -60px;
+    }
+    .list .menu
+    {
+        margin-right: -70px;
+    }
+    .sol{
+        display: block;
+    }
+    .sol1{
+        display: block;
+    }
+    .sol2{
+        display: block;
+    }
+
+
+
+    .card .intro{
+        bottom: 5px;
+        width: 234px;
+    }
+    .card:hover .intro{
+        bottom: 5px;
+    }
+    .card .intro1{
+        bottom: ;
+        width: 234px;
+    }
+    .card:hover .intro1{
+        
+    }
+    .card .intro4{
+        width: 234px;
+        bottom: -575px;
+    }
+    .card:hover .intro4{
+        bottom: -575px;
+    }
+    .card .intro5{
+        width: 234px;
+        bottom: -1155px;
+    }
+    .card:hover .intro5{
+        bottom: -1155px;
+    }
+    .card1 .intro{
+        width: 234px;
+    }
+    .card1:hover .intro6{
+        
+    }
+    .card1 .intro6{
+        width: 234px;
+    }
+    .card2 .intro7{
+        width: 234px;
+    }
+    .card1:hover .intro7{}
+    .card2 .intro8{
+        width: 234px;
+    }
+    .card:hover .intro8{}
+    .card2 .intro9{
+        width: 234px;
+    }
+    .card2:hover .intro9{}
+    
+    .card h5{
+        text-transform: uppercase;
+        font-size: 25px;
+        margin: 10px;
+        font-weight: bold ;
+        
+    }
+    .card1 h5{
+        text-transform: uppercase;
+        font-size: 30px;
+        margin: 10px;
+        font-weight: bold ;
+        
+    }
+    .card2 h5{
+        text-transform: uppercase;
+        font-size: 30px;
+        margin: 10px;
+        font-weight: bold ;
+        
+    }
+    
+}
